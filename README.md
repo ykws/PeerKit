@@ -2,6 +2,18 @@
 
 ## An open-source Swift framework for building event-driven, zero-config Multipeer Connectivity apps
 
+## Installation
+
+### CocoaPods
+
+You can use CocoaPods to install YourLibrary by adding it to your Podfile:
+
+```
+platform :ios, '8.0'
+use_frameworks!
+pod 'PeerKit'
+```
+
 ## Usage
 
 ```swift
