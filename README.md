@@ -13,7 +13,7 @@ enum Event: String {
 }
 
 // Send a StartGame event with attached data to all peers
-PeerKit.sendEvent(Event.StartGame.rawValue, object: ["myInfo": "hello!"])
+PeerKit.sendEvent(Event.StartGame.rawValue, object: ["myInfo": "hello!"] as AnyObject)
 ```
 
 See the [CardsAgainst](https://github.com/jpsim/CardsAgainst) app for example usage. Specifically the [ConnectionManager](https://github.com/jpsim/CardsAgainst/blob/master/CardsAgainst/Controllers/ConnectionManager.swift) class.
